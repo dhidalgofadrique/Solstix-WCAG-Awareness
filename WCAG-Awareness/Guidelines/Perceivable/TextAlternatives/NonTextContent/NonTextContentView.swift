@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NonTextContentView: View {
-    @State var captionOpacity: Double = 1
+    @State var captionOpacity: Double = 0
     @State var blurRadius: Double = 0
     @State var selectedAccessibilityStatus: AccessibilityStatus = .default
 

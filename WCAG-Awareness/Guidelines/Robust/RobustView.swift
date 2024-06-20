@@ -10,9 +10,9 @@ import SwiftUI
 struct RobustView: View {
     var body: some View {
         VStack {
-            Spacer()
             Text("Robusto")
                 .font(.largeTitle)
+            Spacer()
             Image("toDo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)

@@ -10,9 +10,9 @@ import SwiftUI
 struct UnderstandableView: View {
     var body: some View {
         VStack {
-            Spacer()
             Text("Comprensible")
                 .font(.largeTitle)
+            Spacer()
             Image("toDo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
