@@ -33,11 +33,11 @@ struct OrientationView: View {
                 case .portrait:
                     rotation = rotationEnabled ? 0 : 0
                 case .portraitUpsideDown:
-                    rotation = rotationEnabled ? 0 : 180
+                    rotation = rotationEnabled ? 0 : 0
                 case .landscapeLeft:
-                    rotation = rotationEnabled ? 0 : 90
-                case .landscapeRight:
                     rotation = rotationEnabled ? 0 : -90
+                case .landscapeRight:
+                    rotation = rotationEnabled ? 0 : 90
                 default:
                     print("Do nothing")
                 }
