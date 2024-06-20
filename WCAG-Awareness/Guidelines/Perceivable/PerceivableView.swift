@@ -29,7 +29,7 @@ struct PerceivableView: View {
                             title: "1.2.1 Audio-only and Video-only (Prerecorded)",
                             accessibilityLevel: .A
                         ) {
-                            Text("Pending")
+                            AudioVideoOnlyCaptionsView()
                         }
                         GuidelineCell(
                             title: "1.2.2 Captions (Prerecorded)",

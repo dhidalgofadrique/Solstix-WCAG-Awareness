@@ -37,6 +37,8 @@
 		99E099C92C249E6D00DEE565 /* TimingAdjustableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E099C82C249E6D00DEE565 /* TimingAdjustableViewModel.swift */; };
 		99E099CC2C24A49B00DEE565 /* PauseStopHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E099CB2C24A49B00DEE565 /* PauseStopHideView.swift */; };
 		99E099CF2C24A8D500DEE565 /* BypassBlocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E099CE2C24A8D500DEE565 /* BypassBlocksView.swift */; };
+		99E099D12C24EBD800DEE565 /* subtitledSimpsons.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 99E099D02C24EBD800DEE565 /* subtitledSimpsons.mp4 */; };
+		99E099D72C24EC6F00DEE565 /* AudioVideoOnlyCaptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E099D62C24EC6F00DEE565 /* AudioVideoOnlyCaptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		99E099C82C249E6D00DEE565 /* TimingAdjustableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingAdjustableViewModel.swift; sourceTree = "<group>"; };
 		99E099CB2C24A49B00DEE565 /* PauseStopHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseStopHideView.swift; sourceTree = "<group>"; };
 		99E099CE2C24A8D500DEE565 /* BypassBlocksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BypassBlocksView.swift; sourceTree = "<group>"; };
+		99E099D02C24EBD800DEE565 /* subtitledSimpsons.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = subtitledSimpsons.mp4; sourceTree = "<group>"; };
+		99E099D62C24EC6F00DEE565 /* AudioVideoOnlyCaptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVideoOnlyCaptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +266,7 @@
 		99763E762C246F2300C4D485 /* Distinguishable */ = {
 			isa = PBXGroup;
 			children = (
+				99E099D52C24EC6100DEE565 /* AudioVideoOnlyCaptions */,
 				99E099C02C248BB500DEE565 /* VisualPresentation */,
 				99E099BD2C2483C400DEE565 /* ResizeText */,
 				99763E822C247AD200C4D485 /* MinimumContrast */,
@@ -291,6 +296,7 @@
 		99763E7F2C24735F00C4D485 /* MediaResources */ = {
 			isa = PBXGroup;
 			children = (
+				99E099D02C24EBD800DEE565 /* subtitledSimpsons.mp4 */,
 				99763E802C24737100C4D485 /* simpsonsTheme.mp3 */,
 			);
 			path = MediaResources;
@@ -343,6 +349,14 @@
 				99E099CE2C24A8D500DEE565 /* BypassBlocksView.swift */,
 			);
 			path = BypassBlocks;
+			sourceTree = "<group>";
+		};
+		99E099D52C24EC6100DEE565 /* AudioVideoOnlyCaptions */ = {
+			isa = PBXGroup;
+			children = (
+				99E099D62C24EC6F00DEE565 /* AudioVideoOnlyCaptionsView.swift */,
+			);
+			path = AudioVideoOnlyCaptions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,6 +417,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E099D12C24EBD800DEE565 /* subtitledSimpsons.mp4 in Resources */,
 				99763E812C24737100C4D485 /* simpsonsTheme.mp3 in Resources */,
 				99763E342C2416B800C4D485 /* Preview Assets.xcassets in Resources */,
 				99763E312C2416B800C4D485 /* Assets.xcassets in Resources */,
@@ -421,6 +436,7 @@
 				99763E702C244CB000C4D485 /* InfoAndRelationshipsView.swift in Sources */,
 				99763E6A2C243D9800C4D485 /* TimeBasedMediaView.swift in Sources */,
 				99763E752C246AEF00C4D485 /* IdentifyInputPurposeView.swift in Sources */,
+				99E099D72C24EC6F00DEE565 /* AudioVideoOnlyCaptionsView.swift in Sources */,
 				99763E5B2C2429BA00C4D485 /* GuidelineView.swift in Sources */,
 				99763E4A2C241FBA00C4D485 /* Styles.swift in Sources */,
 				99763E2F2C2416B500C4D485 /* ContentView.swift in Sources */,
