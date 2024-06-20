@@ -31,24 +31,6 @@ struct PerceivableView: View {
                         ) {
                             AudioVideoOnlyCaptionsView()
                         }
-                        GuidelineCell(
-                            title: "1.2.2 Captions (Prerecorded)",
-                            accessibilityLevel: .A
-                        ) {
-                            Text("Pending")
-                        }
-                        GuidelineCell(
-                            title: "1.2.6 Sign Language (Prerecorded)",
-                            accessibilityLevel: .AA
-                        ) {
-                            Text("Pending")
-                        }
-                        GuidelineCell(
-                            title: "1.2.9 Audio-only (Live)",
-                            accessibilityLevel: .AAA
-                        ) {
-                            Text("Pending")
-                        }
                     } header: {
                         Text("Time-based Media")
                     }
