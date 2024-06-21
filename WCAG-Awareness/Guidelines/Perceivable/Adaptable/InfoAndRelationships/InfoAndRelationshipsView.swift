@@ -87,6 +87,10 @@ struct InfoAndRelationshipsView: View {
             }
         } ,showRealityButton: false, onAccessibilityStatusChange: { accessibilityStatus in
             sendResult = ""
+            name = ""
+            surname = ""
+            company = ""
+            position = ""
             switch accessibilityStatus {
             case .default:
                 withAnimation {

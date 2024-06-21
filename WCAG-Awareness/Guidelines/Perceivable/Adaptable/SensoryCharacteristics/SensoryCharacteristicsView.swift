@@ -47,6 +47,7 @@ struct SensoryCharacteristicsView: View {
                     }
                 }
             }
+            .padding()
         } onAccessibilityStatusChange: { accessibilityStatus in
             switch accessibilityStatus {
             case .default:
@@ -66,7 +67,6 @@ struct SensoryCharacteristicsView: View {
                 }
             }
         }
-        .padding()
     }
 }
 
