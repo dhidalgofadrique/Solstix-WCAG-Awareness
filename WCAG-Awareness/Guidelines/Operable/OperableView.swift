@@ -21,6 +21,12 @@ struct OperableView: View {
                         ) {
                             TimingAdjustableView()
                         }
+                        GuidelineCell(
+                            title: "2.2.2 Pause, Stop, Hide",
+                            accessibilityLevel: .A
+                        ) {
+                            PauseStopHideView()
+                        }
                     } header: {
                         Text("2.2 Enough Time")
                     }
