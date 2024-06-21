@@ -29,11 +29,11 @@ struct PauseStopHideView: View {
                 case .default:
                     Text("... ... Yo no he sido")
                         .font(.largeTitle)
-                        .blinking(duration: 0.75)
+                        .blinking(duration: 2)
                 case .reality:
                     Text("... ... Yo no he sido")
                         .font(.largeTitle)
-                        .blinking(duration: 0.2)
+                        .blinking(duration: 0.05)
                 case .accessible(let isPaused):
                     if isPaused {
                         Text("... ... Yo no he sido")
@@ -41,7 +41,7 @@ struct PauseStopHideView: View {
                     } else {
                         Text("... ... Yo no he sido")
                             .font(.largeTitle)
-                            .blinking(duration: 2)
+                            .blinking(duration: 3)
                     }
                 }
                 Spacer()
